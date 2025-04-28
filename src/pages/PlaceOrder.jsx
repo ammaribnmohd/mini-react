@@ -14,8 +14,8 @@ const PlaceOrder = () => {
     discount_amount: null, 
     delivery_charge: '',
   });
-  const [isSubmitting, setIsSubmitting] = useState(false); // State to handle submission status
-  const [submitStatus, setSubmitStatus] = useState({ message: '', type: '' }); // State for success/error message
+  const [isSubmitting, setIsSubmitting] = useState(false); 
+  const [submitStatus, setSubmitStatus] = useState({ message: '', type: '' }); 
 
   const handleChange = (e) => {
     const { name, value } = e.target;
